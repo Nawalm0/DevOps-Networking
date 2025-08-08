@@ -34,5 +34,8 @@ sudo yum install nginx -y sudo systemctl start nginx
 
 
 4. DNS Setup in Route 53
+
 - Created an A Record pointing to the EC2 instance's public IPv4 address
 - Domain now serves the default NGINX page at: http://nginx.nawalay.com/
+
+<img width="1512" height="982" alt="Screenshot 2025-08-08 at 13 12 43" src="https://github.com/user-attachments/assets/09d18919-27be-46a5-b2e0-60cab59989ce" />
